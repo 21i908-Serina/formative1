@@ -1,8 +1,28 @@
 <html>
     <head>
         <title>Serina</title>
+
+        <style>
+            header { display:flex;}
+            nav { display:flex;}
+            header #logo img { } /* I am targeting <img> in an element with ID of 'logo' in an html header element */
+            container{display:flex;}
+                 
+        </style>
     </head>
     <body>
+        <header> <!-- <header> = <div id="header"> -->
+            <div id="logo">
+                <img src="https://picsum.photos/150" />
+            </div>
+
+            <nav> <!-- <nav> = <div id="nav"> -->
+                <a href="table.html">table</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+            </nav>
+        </header>
         <h1>Welcome</h1>
         <p>This is awesome</p>
     </body>
