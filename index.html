@@ -1,29 +1,30 @@
 <html>
     <head>
         <title>Serina</title>
-
-        <style>
-            header { display:flex;}
-            nav { display:flex;}
-            header #logo img { } /* I am targeting <img> in an element with ID of 'logo' in an html header element */
-            container{display:flex;}
-                 
-        </style>
+        <link href="global.css" rel="stylesheet"/>
     </head>
     <body>
-        <header> <!-- <header> = <div id="header"> -->
-            <div id="logo">
-                <img src="https://picsum.photos/150" />
-            </div>
-
-            <nav> <!-- <nav> = <div id="nav"> -->
-                <a href="table.html">table</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                <a href="#">Link 4</a>
-            </nav>
+        <header>
+            <h1 class="logo"> logo</h1>
+            <div class="right">
+                <a href="index.html">home</a>
+                <a href="index.html">history</a>
+                <a href="index.html">navigation</a>
+             </div>
         </header>
-        <h1>Welcome</h1>
-        <p>This is awesome</p>
+        <div id="content">
+            <h1>Hello my name is Serina</h1>
+            <hr />
+            <img class="idk" src="https://picsum.photos/1500/300" />
+        </div>
+       
+        <div class="boxes">
+            <div class="box">box 1</div>
+            <div class="box">box 2</div>
+            <div class="box">box 3</div>
+        </div>
+        <footer>
+           <p>YA</p>
+        </footer>
     </body>
 </html>

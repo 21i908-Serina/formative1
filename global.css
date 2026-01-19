@@ -1,8 +1,10 @@
-.header{background-color: rgb(229, 126, 0); padding: 20px: position: relative:}
-            .header-text{}
-             .header { display:flex;}
-            nav { display:flex;}
-            header #logo img { } 
-            table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;}
+html, body{margin:0; padding:0}
+header{display:flex; padding:15px; background-color: bisque; color:black;align-items: center;}
+.right{padding:10px 50px; font-size: 50px; flex:1;text-align: center;}
+.right{flex:5;text-align: right; color:black;font-size: 30px; gap:30px}
+.logo{border:5px solid black; font-size: 40px;padding:5px}
+h1{padding:30px; font-size: 40px; text-align: center;}
+hr{margin:50px 0}
+img{width:100%; margin:40px; align-items: center;}
+.boxes{display:flex; gap:30px;align-items: center;justify-content: center;}
+.box{width: 300px;height:300px;border:2px solid black;display:flex;font-size: 20px;align-items: center;justify-content: center;}
